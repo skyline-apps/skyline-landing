@@ -19,7 +19,7 @@ function App() {
         <Router basename="">
             <Routes>
                 <Route path="/" element={
-                    <div className="min-h-screen w-full relative">
+                    <div className="min-h-dvh w-full relative">
                         <div
                             className="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-top"
                             style={{ backgroundImage: `url(${skylineBg})` }}
