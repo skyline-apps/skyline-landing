@@ -26,7 +26,7 @@ function App() {
                             aria-hidden="true"
                         />
                         <div className="relative text-center text-4xl text-primary-900 font-serif py-20">
-                            skyline studio
+                            studio skyline
                         </div>
                     </div>
                 } />
