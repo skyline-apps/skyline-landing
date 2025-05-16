@@ -19,14 +19,22 @@ function App() {
         <Router basename="">
             <Routes>
                 <Route path="/" element={
-                    <div className="min-h-dvh w-full relative">
+                    <div className="flex flex-col items-center justify-between min-h-dvh w-full relative font-serif">
                         <div
                             className="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-top"
                             style={{ backgroundImage: `url(${skylineBg})` }}
                             aria-hidden="true"
                         />
-                        <div className="relative text-center text-4xl text-primary-900 font-serif py-20">
-                            studio skyline
+                        <div className="relative">
+                            <div className="text-4xl text-primary-900 pt-20">
+                                studio skyline
+                            </div>
+                            <div className="py-8 text-primary-600">
+                                questions? <a href="mailto:team@skylinestud.io">team@skylinestud.io</a>
+                            </div>
+                        </div>
+                        <div className="relative bottom-4 text-sm text-secondary-100">
+                            © 2025 studio skyline llc
                         </div>
                     </div>
                 } />

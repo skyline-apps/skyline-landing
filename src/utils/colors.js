@@ -70,6 +70,7 @@ export const secondary = {
 
 export const themeColors = {
     primary: blue,
+    secondary: secondary,
     success: green,
     warning: yellow,
     danger: red,
